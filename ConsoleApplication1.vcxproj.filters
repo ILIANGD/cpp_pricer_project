@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Part 1 - Black-Scholes Model">
+      <UniqueIdentifier>{4333916f-f7c1-4806-9e3f-7a1c8393a81a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Part 2 - The Cox-Ross-Rubinstein model">
+      <UniqueIdentifier>{da276335-7416-48b3-956c-9ee6b1a39bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Part 3 - Path dependent options and Monte Carlo">
+      <UniqueIdentifier>{be6c4250-9447-410b-827c-8511e6f8341f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Part 1 - Black-Scholes Model">
+      <UniqueIdentifier>{caaa7990-42e4-49bc-8609-a9a4b8a824d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Part 2 - The Cox-Ross-Rubinstein model">
+      <UniqueIdentifier>{7999b75d-bdfe-420e-801a-3b2d45011810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Part 3 - Path dependent options and Monte Carlo">
+      <UniqueIdentifier>{45d05711-e334-4d9a-8ae9-25f9e0b56d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Part 4 - Back to CRR">
+      <UniqueIdentifier>{fc415aa5-f62a-42ae-8788-d6aac54a7b44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Part 4 - Back to CRR">
+      <UniqueIdentifier>{2d9e763a-8e2e-411f-a601-8d27aee66fad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Projet C++ final.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackScholesPricer.cpp">
+      <Filter>Source Files\Part 1 - Black-Scholes Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CallOption.cpp">
+      <Filter>Source Files\Part 1 - Black-Scholes Model</Filter>
+    </ClCompile>
+    <ClCompile Include="EuropeanVanillaOption.cpp">
+      <Filter>Source Files\Part 1 - Black-Scholes Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Option.cpp">
+      <Filter>Source Files\Part 1 - Black-Scholes Model</Filter>
+    </ClCompile>
+    <ClCompile Include="PutOption.cpp">
+      <Filter>Source Files\Part 1 - Black-Scholes Model</Filter>
+    </ClCompile>
+    <ClCompile Include="EuropeanDigitalCallOption.cpp">
+      <Filter>Source Files\Part 2 - The Cox-Ross-Rubinstein model</Filter>
+    </ClCompile>
+    <ClCompile Include="EuropeanDigitalOption.cpp">
+      <Filter>Source Files\Part 2 - The Cox-Ross-Rubinstein model</Filter>
+    </ClCompile>
+    <ClCompile Include="EuropeanDigitalPutOption.cpp">
+      <Filter>Source Files\Part 2 - The Cox-Ross-Rubinstein model</Filter>
+    </ClCompile>
+    <ClCompile Include="Monte Carlo.cpp">
+      <Filter>Source Files\Part 3 - Path dependent options and Monte Carlo</Filter>
+    </ClCompile>
+    <ClCompile Include="CRRPricer.cpp">
+      <Filter>Source Files\Part 2 - The Cox-Ross-Rubinstein model</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackScholesMCPricer1.cpp">
+      <Filter>Source Files\Part 3 - Path dependent options and Monte Carlo</Filter>
+    </ClCompile>
+    <ClCompile Include="AsianCallOption.cpp">
+      <Filter>Source Files\Part 3 - Path dependent options and Monte Carlo</Filter>
+    </ClCompile>
+    <ClCompile Include="AsianOption.cpp">
+      <Filter>Source Files\Part 3 - Path dependent options and Monte Carlo</Filter>
+    </ClCompile>
+    <ClCompile Include="AsianPutOption.cpp">
+      <Filter>Source Files\Part 3 - Path dependent options and Monte Carlo</Filter>
+    </ClCompile>
+    <ClCompile Include="AmericanOption.cpp">
+      <Filter>Source Files\Part 4 - Back to CRR</Filter>
+    </ClCompile>
+    <ClCompile Include="AmericanCallOption.cpp">
+      <Filter>Source Files\Part 4 - Back to CRR</Filter>
+    </ClCompile>
+    <ClCompile Include="AmericanPutOption.cpp">
+      <Filter>Source Files\Part 4 - Back to CRR</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CallOption.h">
+      <Filter>Header Files\Part 1 - Black-Scholes Model</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackScholesPricer.h">
+      <Filter>Header Files\Part 1 - Black-Scholes Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Option.h">
+      <Filter>Header Files\Part 1 - Black-Scholes Model</Filter>
+    </ClInclude>
+    <ClInclude Include="PutOption.h">
+      <Filter>Header Files\Part 1 - Black-Scholes Model</Filter>
+    </ClInclude>
+    <ClInclude Include="EuropeanVanillaOption.h">
+      <Filter>Header Files\Part 1 - Black-Scholes Model</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>Header Files\Part 2 - The Cox-Ross-Rubinstein model</Filter>
+    </ClInclude>
+    <ClInclude Include="CRRPricer.h">
+      <Filter>Header Files\Part 2 - The Cox-Ross-Rubinstein model</Filter>
+    </ClInclude>
+    <ClInclude Include="EuropeanDigitalOption.h">
+      <Filter>Header Files\Part 2 - The Cox-Ross-Rubinstein model</Filter>
+    </ClInclude>
+    <ClInclude Include="EuropeanDigitalCallOption.h">
+      <Filter>Header Files\Part 2 - The Cox-Ross-Rubinstein model</Filter>
+    </ClInclude>
+    <ClInclude Include="Monte Carlo.h">
+      <Filter>Header Files\Part 3 - Path dependent options and Monte Carlo</Filter>
+    </ClInclude>
+    <ClInclude Include="AsianCallOption.h">
+      <Filter>Header Files\Part 3 - Path dependent options and Monte Carlo</Filter>
+    </ClInclude>
+    <ClInclude Include="AsianOption.h">
+      <Filter>Header Files\Part 3 - Path dependent options and Monte Carlo</Filter>
+    </ClInclude>
+    <ClInclude Include="AsianPutOption.h">
+      <Filter>Header Files\Part 3 - Path dependent options and Monte Carlo</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackScholesMCPricer1.h">
+      <Filter>Header Files\Part 3 - Path dependent options and Monte Carlo</Filter>
+    </ClInclude>
+    <ClInclude Include="EuropeanDigitalPutOption1.h">
+      <Filter>Header Files\Part 2 - The Cox-Ross-Rubinstein model</Filter>
+    </ClInclude>
+    <ClInclude Include="AmericanOption.h">
+      <Filter>Header Files\Part 4 - Back to CRR</Filter>
+    </ClInclude>
+    <ClInclude Include="AmericanCallOption.h">
+      <Filter>Header Files\Part 4 - Back to CRR</Filter>
+    </ClInclude>
+    <ClInclude Include="AmericanPutOption.h">
+      <Filter>Header Files\Part 4 - Back to CRR</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
